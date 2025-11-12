@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && vite gh-pages"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
@@ -24,7 +24,8 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
-    "vite": "npm:rolldown-vite@7.2.2"
+    "vite": "npm:rolldown-vite@7.2.2",
+    "vite-plugin-gh-pages": "^1.0.1"
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.2.2"
